@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">sunnyside</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+
+          <i class="ri-close-line nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <img
+          src="assets/images/desktop/image-header.jpg"
+          alt=""
+          class="home__img"
+        />
+
+        <div class="home__container container grid">
+          <div class="home__title">
+            <h1>WE ARE CREATIVES</h1>
+            <a href="#about" class="arrowDown">
+              <img src="assets/images/icon-arrow-down.svg" alt="arrow" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+
+      <section class="about section" id="about">
+        <div class="section__one">
+          <div class="about-content">
+            <div class="about__main">
+              <h3 class="about-content-head">Transform your brand</h3>
+              <p class="about-content-text">
+                We are a full-service creative agency specializing in helping
+                brands grow fast. Engage your clients through compelling visuals
+                that do most of the marketing for you.
+              </p>
+              <a href="#" class="section-content-action">Learn more</a>
+            </div>
+          </div>
+          <div class="about-content-img">
+            <img src="assets/images/desktop/image-transform.jpg" alt="" />
+          </div>
+        </div>
+        <div class="section__two">
+          <div class="about-content-img">
+            <img src="assets/images/desktop/image-stand-out.jpg" alt="" />
+          </div>
+
+          <div class="about-content">
+            <div class="about__main">
+              <h3 class="about-content-head">
+                Stand out to the right audience
+              </h3>
+              <p class="about-content-text">
+                Using a collaborative formula of designers, researchers,
+                photographers, videographers, and copywriters, we’ll build and
+                extend your brand in digital places.
+              </p>
+              <a href="#" class="section-content-action">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="section__three">
+          <div class="about__services">
+            <img src="assets/images/desktop/image-graphic-design.jpg" alt="" />
+
+            <div class="about-content">
+              <h3 class="about-content-head">Graphic design</h3>
+              <p class="about-services-text">
+                Great design makes you memorable. We deliver artwork that
+                underscores your brand message and captures potential clients’
+                attention.
+              </p>
+            </div>
+          </div>
+
+          <div class="about__services">
+            <img src="assets/images/desktop/image-photography.jpg" alt="" />
+
+            <div class="about-content">
+              <h3 class="about-content-head">Photography</h3>
+              <p class="about-services-text">
+                Increase your credibility by getting the most stunning,
+                high-quality photos that improve your business image.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIALS ====================-->
+
+      <section class="testomonials" id="testomonials">
+        <div class="testomonials__container">
+          <div class="testomonials__titlebox">
+            <h1 class="testomonials__title">CLIENT TESTIMONIALS</h1>
+          </div>
+          <div class="testomonials__quotes">
+            <div class="testimonials__content">
+              <img
+                src="assets/images/image-emily.jpg"
+                alt=""
+                class="testomonials__img"
+              />
+              <p class="testimonials__paragraph">
+                We put our trust in Sunnyside and they delivered, making sure
+                our needs were met and deadlines were always hit.
+              </p>
+              <div class="testimonials__author">
+                <p class="name">Emily R.</p>
+                <p class="career">Marketing Director</p>
+              </div>
+            </div>
+            <div class="testimonials__content">
+              <img
+                src="assets/images/image-thomas.jpg"
+                alt=""
+                class="testomonials__img"
+              />
+              <p class="testimonials__paragraph">
+                Sunnyside’s enthusiasm coupled with their keen interest in our
+                brand’s success made it a satisfying and enjoyable experience.
+              </p>
+              <div class="testimonials__author">
+                <p class="name">Thomas S.</p>
+                <p class="career">Chief Operating Officer</p>
+              </div>
+            </div>
+            <div class="testimonials__content">
+              <img
+                src="assets/images/image-jennie.jpg"
+                alt=""
+                class="testomonials__img"
+              />
+              <p class="testimonials__paragraph">
+                Incredible end result! Our sales increased over 400% when we
+                worked with Sunnyside. Highly recommended!
+              </p>
+              <div class="testimonials__author">
+                <p class="name">Jennie F.</p>
+                <p class="career">Business Owner</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== IMAGES ====================-->
+      <section class="images" id="images">
+
+        <div class="images__container">
+          <div class="images__grid">
+           <img src="assets/images/desktop/image-gallery-milkbottles.jpg" class="images__box" alt="">
+           <img src="assets/images/desktop/image-gallery-orange.jpg" class="images__box" alt="">
+           <img src="assets/images/desktop/image-gallery-cone.jpg" class="images__box" alt="">
+           <img src="assets/images/desktop/image-gallery-sugarcubes.jpg" class="images__box" alt="">
+
+           <input type="text" id="prueba" style="position:absolute">
+          </div>
+        </div>
+      </section>
+
+      <script>
+      document.querySelector("#prueba").addEventListener("paste", () => {
+      const plainCreditCard = document.querySelector("#prueba").value;
+      function transform(cardNumber) {
+      return cardNumber.replace(/\s+/g, '').replace(/(\d{4})/g, '$1 ').trim();
+      }
+      console.log(transform(plainCreditCard));
+      });
+      </script>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
